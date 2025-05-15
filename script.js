@@ -1,12 +1,14 @@
-function moveButton() {
-    const yesButton = document.getElementById('yesButton');
-    const x = Math.random() * (window.innerWidth - yesButton.offsetWidth);
-    const y = Math.random() * (window.innerHeight - yesButton.offsetHeight);
-    yesButton.style.position = "absolute";
-    yesButton.style.left = `${x}px`;
-    yesButton.style.top = `${y}px`;
+function nextPage() {
+    alert("အင်ကြင်းလဲပြန်မချစ်တော့ပါဘူး");
+    // သင့်အားသီးသန့် success page သို့ပြောင်းချင်ရင်:
+    // window.location.href = "yes.html";
 }
 
-function loveConfirmed() {
-    alert("အင်ကြင်းကိုမချစ်တာကို ချစ်တာလို့ယူထားတော့မယ်နော် 😢");
+function moveButton() {
+    const noButton = document.getElementById('noButton');
+    const x = Math.random() * (window.innerWidth - noButton.offsetWidth);
+    const y = Math.random() * (window.innerHeight - noButton.offsetHeight);
+    noButton.style.position = "absolute";
+    noButton.style.left = `${x}px`;
+    noButton.style.top = `${y}px`;
 }
