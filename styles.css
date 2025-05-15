@@ -1,0 +1,44 @@
+body {
+    background-color: #ffe6f0;
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+.gif_container img {
+    width: 200px;
+    height: auto;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff66a3;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3385;
+}
