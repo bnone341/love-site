@@ -1,5 +1,5 @@
 body {
-    background-color: #fff0f5;
+    background-color: #ffe6f0;
     font-family: 'Indie Flower', cursive;
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@ body {
 }
 
 .header_text {
-    font-size: 2.5em;
-    color: #ff3399;
+    font-size: 3em;
+    color: #ff3366;
     margin-bottom: 20px;
 }
 
@@ -25,7 +25,6 @@ body {
 
 .buttons {
     margin-top: 20px;
-    position: relative;
 }
 
 .btn {
@@ -35,11 +34,11 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 12px;
-    background-color: #ff66b2;
+    background-color: #ff66a3;
     color: white;
     transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #ff3399;
+    background-color: #ff3385;
 }
